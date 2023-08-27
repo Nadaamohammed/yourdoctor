@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Your Doctor</title>
+    <style>
+        input[type=submit]:hover,
+        input[type=submit]:focus {
+            background: #f79577;
+            cursor: pointer;
+            outline: none;
+        }
+
+        .text-subheadline {
+            font: 700 0.75rem 'Montserrat';
+        }
+
+        .text-subheadline {
+            color: #f37b56;
+            left: -.17rem;
+            letter-spacing: .143rem;
+            font: 700 0.900rem 'Montserrat';
+            margin-bottom: 1.5rem;
+            position: relative;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .headline {
+            font: 700 1.625rem 'Montserrat';
+        }
+
+        .headline {
+            color: #74bdb7;
+            letter-spacing: 0.4rem;
+            font: 700 1.4em 'Montserrat';
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .text-small-uppercase {
+            color: #74bdb7;
+            font: 700 .75rem 'Montserrat';
+            letter-spacing: .08rem;
+            text-transform: uppercase;
+        }
+
+        .text-body {
+            color: #354c58;
+            font: 700 16px 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" method="post" style="width: 600px; height: 400px; background-color: #f9f6ed; margin: 200px auto; text-align: center;">
+        <div class="headline">
+            <h2 class="text-headline">Your Doctor</h2>
+            <h3 class="text-subheadline">Reservation </h2>
+        </div>
+
+        <span>
+            <label for="Patient Name" class="text-small-uppercase">Patient Name</label>
+            <input class="text-body" id="Patient Name" name="Patient Name" type="text" required><br /><br />
+        </span>
+        <span>
+            <label for="Phone Number" class="text-small-uppercase">Phone Number</label>
+            <input class="text-body" id="Phone Number" name="Phone Number" type="text" required>
+        </span><br /><br />
+        <span>
+            <label for=" Patient Age" class="text-small-uppercase"> Patient Age</label>
+            <input class="text-body" id=" Patient Age" name=" Patient Age" type="text" required>
+
+
+        </span><br /><br />
+
+
+        <label for="reservation time" class="text-small-uppercase">Reservation Time:</label><br /><br />
+        <select name="Reservation Time" class="text-small-uppercase" id="Reservation Time">
+            <br />
+            <br />
+            <option value="Thursday:from 8pm to 10pm">Thursday:from 8pm to 10pm</option>
+            <option value="Monday:from 6pm to 10pm">Monday:from 6pm to 10pm</option>
+            <option value="Tuesday:from 6pm to 10pm">Tuesday:from 6pm to 10pm</option>
+        </select>
+        <br /><br />
+        <input type="submit" value="Reserve" style="font: 700 .75rem 'Montserrat'; letter-spacing: .08rem; text-transform: uppercase; background: #f37b56; border: none; color: #fff; padding: 0 2rem; height: 2.75rem; " /><br /><br />
+
+    </form>
+    <body style="background-color: #74bdb7; background-repeat: no-repeat; background-attachment: fixed;">
+        </bodystyle>
+
+    </body>
+</html>
